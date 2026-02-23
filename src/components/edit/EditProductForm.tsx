@@ -9,6 +9,7 @@ import { appendAuditLog } from '../../lib/auditLog'
 
 interface EditProductFormProps {
   product: Product
+  onSaved?: () => void
 }
 
 function FieldError({ message }: { message?: string }) {
@@ -16,7 +17,7 @@ function FieldError({ message }: { message?: string }) {
   return <p className="mt-1 text-xs text-red-600">{message}</p>
 }
 
-export function EditProductForm({ product }: EditProductFormProps) {
+export function EditProductForm({ product, onSaved }: EditProductFormProps) {
   const navigate = useNavigate()
   const { mutate: updateProduct, isPending } = useUpdateProduct()
 
@@ -74,7 +75,10 @@ export function EditProductForm({ product }: EditProductFormProps) {
         },
       },
       {
-        onSuccess: () => navigate(`/products/${product.id}`),
+        onSuccess: () => {
+          onSaved?.()
+          navigate(`/products/${product.id}`)
+        },
       },
     )
   }
