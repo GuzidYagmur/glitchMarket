@@ -1,0 +1,204 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "USB-C Hub Pro",
+      "price": "12,90",
+      "stock": 15,
+      "category": "Electronics",
+      "updatedAt": "2025-01-10T12:00:00Z",
+      "description": "7-port USB hub with power delivery",
+      "sku": "UCH-001"
+    },
+    {
+      "id": "2",
+      "name": "Mechanical Keyboard",
+      "price": "€89.99",
+      "stock": 8,
+      "category": "Electronics",
+      "updatedAt": "2025-01-15T09:30:00Z",
+      "description": "Tactile mechanical switches, TKL layout",
+      "sku": "MKB-002"
+    },
+    {
+      "id": "3",
+      "name": "Laptop Stand Adjustable",
+      "price": 34.99,
+      "stock": -3,
+      "category": "Accessories",
+      "updatedAt": "2025-01-08T14:00:00Z",
+      "description": "Aluminum stand with 6 height settings",
+      "sku": "LSA-003"
+    },
+    {
+      "id": "4",
+      "name": "Webcam HD 1080p",
+      "price": 59.99,
+      "stock": 22,
+      "category": "Electronics",
+      "updatedAt": "yesterday",
+      "description": "Full HD webcam with built-in mic",
+      "sku": "WBC-004"
+    },
+    {
+      "id": "5",
+      "name": "Mouse Pad XL",
+      "price": 19.99,
+      "stock": 45,
+      "category": "Accessories",
+      "updatedAt": "01/32/2025",
+      "description": "Extended desk pad 90x40cm",
+      "sku": "MPX-005"
+    },
+    {
+      "id": "6",
+      "name": "Smart LED Lamp",
+      "price": 44.99,
+      "stock": 12,
+      "category": ["Office", "Sale"],
+      "updatedAt": "2025-01-20T11:00:00Z",
+      "description": "RGB smart desk lamp with app control",
+      "sku": "SLL-006"
+    },
+    {
+      "id": "7",
+      "name": "Wireless Headphones 🎧!! SALE",
+      "price": 79.99,
+      "stock": 6,
+      "category": "Audio",
+      "updatedAt": "2025-01-18T08:00:00Z",
+      "description": "Over-ear wireless headphones 30hr battery",
+      "sku": "WHD-007"
+    },
+    {
+      "id": "8",
+      "name": null,
+      "price": 29.99,
+      "stock": 18,
+      "category": "Accessories",
+      "updatedAt": "2025-01-12T16:00:00Z",
+      "description": "Generic cable management kit",
+      "sku": "CMK-008"
+    },
+    {
+      "id": "9",
+      "name": "Broken Bundle Deal",
+      "price": null,
+      "stock": -3,
+      "category": "Misc",
+      "updatedAt": "2025-01-05T08:00:00Z",
+      "description": "Bundle deal with accessories",
+      "sku": "BBD-009"
+    },
+    {
+      "id": "10",
+      "name": "Portable SSD 1TB",
+      "price": "109,99",
+      "stock": 5,
+      "category": "Electronics",
+      "updatedAt": "not-a-date",
+      "description": "NVMe portable SSD USB-C",
+      "sku": "SSD-010"
+    },
+    {
+      "id": "11",
+      "name": "Ergonomic Wrist Rest",
+      "price": 22.99,
+      "stock": 30,
+      "category": null,
+      "updatedAt": "2025-01-14T10:00:00Z",
+      "description": "Memory foam wrist rest for keyboard",
+      "sku": "EWR-011"
+    },
+    {
+      "id": "12",
+      "name": "Monitor Arm Single",
+      "price": 67.50,
+      "stock": "seven",
+      "category": "Office",
+      "updatedAt": "2025-01-09T13:00:00Z",
+      "description": "Fully adjustable single monitor arm",
+      "sku": "MAS-012"
+    },
+    {
+      "id": "13",
+      "name": "USB-A to USB-C Cable",
+      "price": 9.99,
+      "stock": 100,
+      "category": "Accessories",
+      "updatedAt": "2025-01-22T07:00:00Z",
+      "description": "Braided 2m USB-A to USB-C cable",
+      "sku": "CAB-013"
+    },
+    {
+      "id": "14",
+      "name": "Noise Cancelling Earbuds",
+      "price": 149.99,
+      "stock": 14,
+      "category": "Audio",
+      "updatedAt": "2025-01-21T15:00:00Z",
+      "description": "True wireless ANC earbuds IPX5",
+      "sku": "NCE-014"
+    },
+    {
+      "id": "15",
+      "name": "   ",
+      "price": 14.99,
+      "stock": 25,
+      "category": "Misc",
+      "updatedAt": "2025-01-17T12:00:00Z",
+      "description": "Whitespace-only name product",
+      "sku": "WSP-015"
+    },
+    {
+      "id": "16",
+      "name": "Drawing Tablet A5",
+      "price": "12.90 USD",
+      "stock": 9,
+      "category": "Electronics",
+      "updatedAt": "2025-01-19T10:30:00Z",
+      "description": "A5 graphics drawing tablet",
+      "sku": "DTA-016"
+    },
+    {
+      "id": "17",
+      "name": "Desk Organizer Bamboo",
+      "price": 38.00,
+      "stock": -1,
+      "category": ["Office", "Accessories"],
+      "updatedAt": "2025-01-11T09:00:00Z",
+      "description": "Eco-friendly bamboo desk organizer",
+      "sku": "DOB-017"
+    },
+    {
+      "id": "18",
+      "name": "Gaming Mouse 🖱️🔥 PRO",
+      "price": "59,95",
+      "stock": 20,
+      "category": "Electronics",
+      "updatedAt": "2025-01-16T14:00:00Z",
+      "description": "16000 DPI gaming mouse RGB",
+      "sku": "GMR-018"
+    },
+    {
+      "id": "19",
+      "name": "Cable Clips Adhesive",
+      "price": 7.99,
+      "stock": 200,
+      "category": "Accessories",
+      "updatedAt": "",
+      "description": "Self-adhesive cable management clips",
+      "sku": "CCA-019"
+    },
+    {
+      "id": "20",
+      "name": null,
+      "price": "free",
+      "stock": -10,
+      "category": "Misc",
+      "updatedAt": "invalid-timestamp",
+      "description": "",
+      "sku": "BAD-020"
+    }
+  ]
+}
