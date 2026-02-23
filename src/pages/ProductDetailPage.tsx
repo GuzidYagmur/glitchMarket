@@ -1,6 +1,7 @@
 import { Link, useParams } from 'react-router-dom'
 import { useProduct } from '../hooks/useProduct'
 import { ProductTabs } from '../components/product/ProductTabs'
+import { GlitchReport } from '../components/product/GlitchReport'
 import { LoadingSpinner } from '../components/ui/LoadingSpinner'
 import { ErrorAlert } from '../components/ui/ErrorAlert'
 import { GlitchBadge } from '../components/ui/GlitchBadge'
@@ -42,9 +43,7 @@ export function ProductDetailPage() {
         <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm">
           <h2 className="text-base font-semibold text-gray-900 mb-1">Glitch Report</h2>
           <p className="text-xs text-gray-400 mb-4">Issues detected in raw data</p>
-          {product.glitchIssues.length === 0 ? (
-            <p className="text-sm text-green-600 font-medium">No issues detected. Data is clean.</p>
-          ) : null}
+          <GlitchReport issues={product.glitchIssues} />
         </div>
       </div>
     </div>
